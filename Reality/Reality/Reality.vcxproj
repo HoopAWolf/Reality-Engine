@@ -55,22 +55,22 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\Debug-x64\Reality\</OutDir>
-    <IntDir>..\bin-int\Debug-x64\Reality\</IntDir>
+    <OutDir>..\bin\Debug-windows-x86_64\Reality\</OutDir>
+    <IntDir>..\bin-int\Debug-windows-x86_64\Reality\</IntDir>
     <TargetName>Reality</TargetName>
     <TargetExt>.dll</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\bin\Release-windows-x86_64\Reality\</OutDir>
-    <IntDir>..\bin-int\Release-windows-x86_64\Reality\</IntDir>
+    <OutDir>..\bin\Release-windows-64\Reality\</OutDir>
+    <IntDir>..\bin-int\Release-windows-64\Reality\</IntDir>
     <TargetName>Reality</TargetName>
     <TargetExt>.dll</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\bin\Dist-windows-x86_64\Reality\</OutDir>
-    <IntDir>..\bin-int\Dist-windows-x86_64\Reality\</IntDir>
+    <OutDir>..\bin\Dist-windows-64\Reality\</OutDir>
+    <IntDir>..\bin-int\Dist-windows-64\Reality\</IntDir>
     <TargetName>Reality</TargetName>
     <TargetExt>.dll</TargetExt>
   </PropertyGroup>
@@ -91,7 +91,7 @@
       <ImportLibrary>..\bin\Debug-windows-x86_64\Reality\Reality.lib</ImportLibrary>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y "$(OutDir)Reality.dll" "$(SolutionDir)bin\$(Configuration)-$(Platform)\Sandbox\"</Command>
+      <Command>xcopy /y "$(OutDir)Reality.dll" "$(SolutionDir)bin\$(Configuration)-windows-x86_64\Sandbox\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
