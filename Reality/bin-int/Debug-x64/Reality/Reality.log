@@ -1,6 +1,11 @@
-﻿  Log.cpp
+﻿  Application.cpp
+  Log.cpp
 D:\Game Engine Project\Reality-Engine\Reality\Reality\src\Reality\Log.h(20,54): warning C4251: 'Reality::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Reality::Log'
 D:\Game Engine Project\Reality-Engine\Reality\Reality\vendor\spdlog\include\spdlog\details\registry.h(33): message : see declaration of 'std::shared_ptr<spdlog::logger>'
 D:\Game Engine Project\Reality-Engine\Reality\Reality\src\Reality\Log.h(21,56): warning C4251: 'Reality::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Reality::Log'
 D:\Game Engine Project\Reality-Engine\Reality\Reality\vendor\spdlog\include\spdlog\details\registry.h(33): message : see declaration of 'std::shared_ptr<spdlog::logger>'
-  Reality.vcxproj -> D:\Game Engine Project\Reality-Engine\Reality\bin\Debug-x64\Reality\Reality.dll
+  Generating Code...
+     Creating library ..\bin\Debug-windows-x86_64\Reality\Reality.lib and object ..\bin\Debug-windows-x86_64\Reality\Reality.exp
+  Reality.vcxproj -> D:\Game Engine Project\Reality-Engine\Reality\Reality\..\bin\Debug-x64\Reality\Reality.dll
+  ..\bin\Debug-x64\Reality\Reality.dll
+  1 File(s) copied

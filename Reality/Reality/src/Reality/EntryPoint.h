@@ -7,7 +7,7 @@ extern Reality::Application* Reality::CreateApplication();
 int main(int argc, char** argv)
 {
 	Reality::Log::Init();
-	RT_CORE_INFO("<Intialized Log>");
+	RT_CORE_INFO("<Intialized Logging System>");
 
 	Reality::Application* app = Reality::CreateApplication();
 	app->Run();
