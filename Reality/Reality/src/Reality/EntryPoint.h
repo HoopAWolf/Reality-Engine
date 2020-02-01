@@ -6,7 +6,10 @@ extern Reality::Application* Reality::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	auto app = Reality::CreateApplication();
+	Reality::Log::Init();
+	RT_CORE_INFO("<Intialized Log>");
+
+	Reality::Application* app = Reality::CreateApplication();
 	app->Run();
 
 	delete app;
